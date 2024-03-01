@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ArL-WJ-qnq">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the data(mm/dd/yy)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QPJ-Kl-VAC">
+                                <rect key="frame" x="100" y="635" width="193" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBa-wp-aeD">
+                                <rect key="frame" x="30" y="279" width="333" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="730739684.122141">
+                                    <!--2024-02-27 15:14:44 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QPJ-Kl-VAC" secondAttribute="trailing" constant="100" id="7bJ-9u-H6E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QPJ-Kl-VAC" secondAttribute="bottom" constant="100" id="9aH-bX-fe8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sBa-wp-aeD" secondAttribute="trailing" constant="30" id="EUT-QZ-zNp"/>
+                            <constraint firstItem="sBa-wp-aeD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aJt-5O-c6Y"/>
+                            <constraint firstItem="QPJ-Kl-VAC" firstAttribute="top" secondItem="sBa-wp-aeD" secondAttribute="bottom" constant="140" id="c8v-ZE-Jp8"/>
+                            <constraint firstItem="QPJ-Kl-VAC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="iE8-1S-C87"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hRY-WW-jZ6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330.53435114503816" y="705.63380281690149"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="RXV-xF-d42">
+            <objects>
+                <viewController id="Qus-fN-L6u" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mng-xo-cjf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1jA-AC-ort"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Music" image="music.note" catalog="system" selectedImage="music.note" id="muw-Zu-rx9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aKr-dl-WEv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081.679389312977" y="710.56338028169023"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="IVS-MX-IF9">
+            <objects>
+                <viewController id="Dpt-Mf-CGN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w4U-jx-cPc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vKg-J2-QjX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Friends" image="person.3.fill" catalog="system" selectedImage="person.3.fill" id="NWU-Lx-Eos"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y14-nF-Fyl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1915.2671755725189" y="717.6056338028169"/>
+        </scene>
+        <!--Time-->
+        <scene sceneID="TnZ-ce-UWX">
+            <objects>
+                <viewController id="iuM-D8-U1c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8zh-Kh-L6o">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0nP-kw-hv5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Time" image="clock.arrow.circlepath" catalog="system" selectedImage="clock.arrow.circlepath" id="Wy3-iy-hUZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lje-do-6Ia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2628.2442748091603" y="723.94366197183103"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wIr-cG-PXj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ArL-WJ-qnq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fFI-El-Bts">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gk1-ID-kby" kind="relationship" relationship="viewControllers" id="GUb-hs-bpg"/>
+                        <segue destination="Qus-fN-L6u" kind="relationship" relationship="viewControllers" id="wNW-vY-EMB"/>
+                        <segue destination="Dpt-Mf-CGN" kind="relationship" relationship="viewControllers" id="bRX-yn-4xp"/>
+                        <segue destination="iuM-D8-U1c" kind="relationship" relationship="viewControllers" id="KjB-YK-hhL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hH2-xl-xMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="523" y="-273"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="T2i-P7-egk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gk1-ID-kby" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Feed" image="person" catalog="system" badgeValue="20" selectedImage="person" id="sbj-LB-SjW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1TX-66-Icz">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DMB-eE-KfJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eH6-lc-2pS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-595" y="717"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clock.arrow.circlepath" catalog="system" width="128" height="112"/>
+        <image name="music.note" catalog="system" width="96" height="128"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.3.fill" catalog="system" width="128" height="66"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
